@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--favicon-->
+		<link rel="icon" href="AAA_image\logo1.png" type="image/png">
+		<!--plugins-->
+		<link href="static/css/simplebar.css" rel="stylesheet">
+		<link href="static/css/perfect-scrollbar.css" rel="stylesheet">
+		<link href="static/css/metisMenu.min.css" rel="stylesheet">
+		<link href="static/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+		<!-- loader-->
+		<link href="static/css/pace.min.css" rel="stylesheet">
+		<script src="static/js/pace.min.js"></script>
+		<!-- Bootstrap CSS -->
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="static/css/app.css" rel="stylesheet">
+		<link href="static/css/icons.css" rel="stylesheet">
+		<!-- Theme Style CSS -->
+		<link rel="stylesheet" href="static/css/dark-theme.css">
+		<link rel="stylesheet" href="static/css/semi-dark.css">
+		<link rel="stylesheet" href="static/css/header-colors.css">
+		<title>DDGS-糖云社区⛅</title>
+	</head>
+	<body>
+
+
+
+		<!-- 左侧边栏 -->
+		<!--wrapper-->
+		<div class="wrapper">
+			<!-- sidebar wrapper -->
+			<div class="sidebar-wrapper" data-simplebar="true">
+				<div class="sidebar-header">
+					<div>
+						<a href="AAA_MainIndex.html">
+							<img src="AAA_image\logo1.png" class="logo-icon" alt="logo icon">
+						</a>
+					</div>
+					<div>
+						<a href="AAA_MainIndex.html">
+							<h4 class="logo-text">DDGS</h4>
+						</a>
+					</div>
+					<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
+					</div>
+				</div>
+
+
+
+
+				<!-- 左侧导航栏 -->
+				<!-- navigation-->
+				<ul class="metismenu" id="menu">
+					<li>
+						<a href="0_MainPage.html" target="_blank">
+							<div class="parent-icon">
+                                <i class='bx bx-home-circle'></i>
+							</div>
+							<div class="menu-title">首页</div>
+						</a>
+					</li>
+					<li>
+						<a href="01_认识Ⅱ型糖尿病.html" target="_blank">
+							<div class="parent-icon">
+                                <i class='bx bx-bookmark-heart'></i>
+							</div>
+							<div class="menu-title">认识Ⅱ型糖尿病</div>
+						</a>
+					</li>
+					<li>
+						<a class="has-arrow" href="javascript:;">
+							<div class="parent-icon">
+                                <i class="bx bx-repeat"></i>
+							</div>
+							<div class="menu-title">膳食指导平台</div>
+						</a>
+						<ul>
+							<li> 
+                                <a href="02-1_膳食指导平台_身体指标录入.html">
+                                    <i class="bx bx-message-square-edit"></i>身体指标录入
+                                </a>
+							</li>
+							<li>
+								<a class="has-arrow" href="javascript:;">
+									<div>
+                                        <i class="bx bx-category"></i>
+									</div>
+									<div class="menu-title">膳食指导结果查询</div>
+								</a>
+								<!-- <ul>
+									<li> 
+                                        <a href="02-2_膳食指导平台-专属膳食指导.html">
+                                            <i class="bx bx-right-arrow-alt"></i>专属膳食指导
+                                        </a>
+									</li>
+									<li> 
+                                        <a href="02-3_膳食指导系统-每日食谱指导.html">
+                                            <i class="bx bx-right-arrow-alt"></i>每日食谱指导
+                                        </a>
+									</li>
+								</ul> -->
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="javascript:;">
+							<div class="parent-icon">
+								<i class="bx bx-folder"></i>
+							</div>
+							<div class="menu-title">特医配方平台</div>
+						</a>
+						<ul>
+							<li>
+                                <a href="03-1_特医配方平台_特医配方验证.html">
+                                    <i class="bx bx-right-arrow-alt"></i>特医配方验证
+                                </a>
+							</li>
+							<li>
+                                <a href="03-2_特医配方平台_生成配方分析.html">
+                                    <i class="bx bx-right-arrow-alt"></i>生成配方分析
+                                </a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="04_糖云社区.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-message-square-edit"></i>
+							</div>
+							<div class="menu-title">糖云社区</div>
+						</a>
+					</li>
+					<li>
+						<a href="05_机器学习原理.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-support"></i>
+							</div>
+							<div class="menu-title">机器学习原理</div>
+						</a>
+					</li>
+					<li>
+						<a href="06_关于我们.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-user-circle"></i>
+							</div>
+							<div class="menu-title">关于我们</div>
+						</a>
+					</li>
+				</ul>
+				<!--end navigation-->
+			</div>
+			<!--end sidebar wrapper -->
+
+
+
+
+
+
+
+
+
+
+			<!--start header -->
+			<header>
+				<div class="topbar d-flex align-items-center">
+					<nav class="navbar navbar-expand">
+						<div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
+						</div>
+
+						<!-- 搜索键入框 -->
+						<div class="search-bar flex-grow-1">
+							<div class="position-relative search-bar-box">
+								<!-- <img src="F:\TZB\Template1\Temp\AAA_image\4.png" class="top-menu"> -->
+								<input type="text" class="form-control search-control" placeholder="Chat with AI……(Coming Soon)">
+								<span class="position-absolute top-50 search-show translate-middle-y"><i
+										class='bx bx-search'></i></span>
+								<span class="position-absolute top-50 search-close translate-middle-y"><i
+										class='bx bx-x'></i></span>
+							</div>
+						</div>
+
+						<!-- 中上部菜单栏 -->
+						<div class="top-menu ms-auto">
+							<ul class="navbar-nav align-items-center">
+
+
+
+
+								<!-- 那个铃铛下面的展开\一些对左边栏动画的玄学影响 -->
+								<li class="nav-item dropdown dropdown-large">
+
+									<div class="dropdown-menu dropdown-menu-end">
+
+										<div class="header-notifications-list">
+
+										</div>
+
+									</div>
+								</li>
+
+
+								<!-- 那个8对话框下面的东东 -->
+								<li class="nav-item dropdown dropdown-large">
+
+									<div class="dropdown-menu dropdown-menu-end">
+
+										<div class="header-message-list">
+
+
+										</div>
+
+									</div>
+								</li>
+
+
+
+
+							</ul>
+						</div>
+
+
+
+						<!-- 可能是用户端 右上角那块-->
+
+						<div class="user-box dropdown">
+							<a class="d-flex align-items-center nav-link dropdown-toggle
+								dropdown-toggle-nocaret" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="AAA_image\logo1.png" class="user-img" alt="user avatar">
+								<div class="user-info ps-3">
+									<p class="user-name mb-0">User小D</p>
+									<p class="designattion mb-0">患者</p>
+								</div>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end">
+								<li><a class="dropdown-item" href="javascript:;"><i class="bx bx-user"></i><span>个人信息维护</span></a>
+								</li>
+								<li><a class="dropdown-item" href="javascript:;"><i class="bx bx-cog"></i><span>设置</span></a>
+								</li>
+								<li><a class="dropdown-item" href="javascript:;"><i class='bx
+											bx-download'></i><span>治疗档案</span></a>
+								</li>
+								<li>
+									<div class="dropdown-divider mb-0"></div>
+								</li>
+								<li><a class="dropdown-item" href="javascript:;"><i class='bx
+											bx-log-out-circle'></i><span>登出/注销</span></a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!--end header -->
+
+
+
+			<!--start page wrapper -->
+			<div class="page-wrapper">
+				<div class="page-content">
+					<!--breadcrumb-->
+					<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+						<div class="breadcrumb-title pe-3">DDGS</div>
+						<div class="ps-3">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb mb-0 p-0">
+									<li class="breadcrumb-item"><a href="0_MainPage.html"><i class="bx
+												bx-home-alt"></i></a>
+									</li>
+									<li class="breadcrumb-item active" aria-current="page">⛅糖云社区</li>
+								</ol>
+							</nav>
+						</div>
+
+					</div>
+					<!--end breadcrumb-->
+					<div class="">
+						<div class="">
+
+							<!--container-->
+							<hr>
+
+							<div class="container py-2">
+								<!-- <h2 class="font-weight-light text-center text-muted py-3">Timeline Example 2</h2> -->
+								<div class="col-sm py-2">
+									<div class="card radius-15">
+										
+
+
+
+
+
+
+										<div class="card-body">
+											<div class="search-bar d-flex">
+											  <div class="position-relative search-bar-box flex-grow-1">
+												<!-- <img src="F:\TZB\Template1\Temp\AAA_image\4.png" class="top-menu"> -->
+												<input type="text" class="form-control search-control" placeholder="Tap to Share……">
+												<span class="position-absolute top-50 search-show translate-middle-y"><i class='bx bx-search'></i></span>
+												<span class="position-absolute top-50 search-close translate-middle-y"><i class='bx bx-x'></i></span>
+											  </div>
+											  <a href="javascript:;" class="btn1 btn-primary">Sending✈</a>
+											</div>
+										  </div>
+
+
+
+
+
+
+									</div>
+								</div>
+
+								<!-- timeline item 1 -->
+								<div class="row g-0">
+									<div class="col-sm">
+										<!--spacer-->
+									</div>
+									<!-- timeline item 1 center dot -->
+									<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+										<div class="row h-50">
+											<div class="col">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+										<h5 class="m-2">
+											<span class="badge rounded-pill bg-light border">&nbsp;</span>
+										</h5>
+										<div class="row h-50">
+											<div class="col border-end">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+									</div>
+
+									<!-- timeline item 1 event content -->
+									<div class="col-sm py-2">
+										<div class="card radius-15">
+											<div class="card-body">
+												<div class="float-end text-muted small">April 4th 2023 8:30 AM<br>(@xsWang3210)</div>
+												<h4 class="card-title">1楼 ⛅王小膳</h4>
+												<p>加油加油！我今天使用的是平台特供的全营养配方特医食品，餐后血糖控制在11.8呢！大家一起努力！</p>
+										</div>
+										
+									</div>
+								</div>
+								<!--/row-->
+								<!-- timeline item 2 -->
+								<div class="row g-0">
+									<div class="col-sm py-2">
+										<div class="card border-primary shadow radius-15">
+											<div class="card-body">
+												<div class="float-end text-primary small">April 3th 2023 9:30 PM<br>(@ErbevonKhaps)</div>
+												<h4 class="card-title text-primary">2楼 ⛅FranzKarl</h4>
+												<p class="card-text">Today's lunch ate a steamed bun, a plate of fried carrots and shrimp brisket, after the meal ate a tomato, the postprandial blood sugar control at 12.3, a lot lowered! I hope everyone eats scientifically together!</p>
+												<button class="btn btn-sm btn-outline-secondary" type="button"
+													data-bs-target="#t22_details" data-bs-toggle="collapse">
+													我的食谱 ▼</button>
+												<div class="collapse border" id="t22_details">
+													<div class="p-2 text-monospace">
+														<div>08:00-08:20 	Soba</div>
+														<div>11:30-12:00 	Bun,carrot,shrimp and brisket</div>
+														<div>16:30-17:00 	Rice,meat with chili,stir-fried greens</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+										<div class="row h-50">
+											<div class="col border-end">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+										<h5 class="m-2">
+											<span class="badge rounded-pill bg-primary">&nbsp;</span>
+										</h5>
+										<div class="row h-50">
+											<div class="col border-end">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+									</div>
+									<div class="col-sm">
+										<!--spacer-->
+									</div>
+								</div>
+								<!--/row-->
+								<!-- timeline item 3 -->
+								<div class="row g-0">
+									<div class="col-sm">
+										<!--spacer-->
+									</div>
+									<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+										<div class="row h-50">
+											<div class="col border-end">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+										<h5 class="m-2">
+											<span class="badge rounded-pill bg-light border">&nbsp;</span>
+										</h5>
+										<div class="row h-50">
+											<div class="col border-end">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+									</div>
+									<div class="col-sm py-2">
+										<div class="card radius-15">
+											
+											<div class="card-body">
+												<div class="float-end text-muted small">April 3th 2023 5:00 PM<br>(@realAlexWang)</div>
+												<h4 class="card-title text-muted">3楼 ⛅Alexander</h4>
+												<p class="card-text">Today's lunch I ate a steamed bun, a plate of fried carrots and shrimp brisket, and after the meal a tomatothe.<br> The blood sugar control at 12.3, a lot lowered! I hope everyone eats scientifically together!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--/row-->
+								<!-- timeline item 4 -->
+								<div class="row g-0">
+									<div class="col-sm py-2">
+										<div class="card radius-15">
+											<div class="card-body">
+												<div class="float-end text-muted small">April 4th 2023 11:30 AM<br>(@2002Shixz)</div>
+												<h4 class="card-title">4楼 ⛅史小致</h4>
+												<p>感谢平台特供的全营养配方特医食品，今天餐后血糖在11.6！继续加油</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+										<div class="row h-50">
+											<div class="col border-end">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+										<h5 class="m-2">
+											<span class="badge rounded-pill bg-light border">&nbsp;</span>
+										</h5>
+										<div class="row h-50">
+											<div class="col">&nbsp;</div>
+											<div class="col">&nbsp;</div>
+										</div>
+									</div>
+									<div class="col-sm">
+										<!--spacer-->
+									</div>
+								</div>
+								<!--/row-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end page wrapper -->
+
+
+
+			<!--start overlay-->
+			<div class="overlay toggle-icon"></div>
+			<!--end overlay-->
+			<!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i
+					class='bx bxs-up-arrow-alt'></i></a>
+			<!--End Back To Top Button-->
+			<footer class="page-footer">
+				<p class="mb-0">Copyright © 2023 All right reserved.</p>
+			</footer>
+		</div>
+		<!--end wrapper-->
+
+
+
+
+
+
+
+
+		<!-- start switcher-->
+		<div class="switcher-wrapper">
+			<div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+			</div>
+			<div class="switcher-body">
+				<div class="d-flex align-items-center">
+					<h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+					<button type="button" class="btn-close ms-auto close-switcher"
+						aria-label="Close"></button>
+				</div>
+				<hr>
+				<h6 class="mb-0">Theme Styles</h6>
+				<hr>
+				<div class="d-flex align-items-center justify-content-between">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="lightmode" checked="">
+						<label class="form-check-label" for="lightmode">Light</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="darkmode">
+						<label class="form-check-label" for="darkmode">Dark</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="semidark">
+						<label class="form-check-label" for="semidark">Semi Dark</label>
+					</div>
+				</div>
+				<hr>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" id="minimaltheme"
+						name="flexRadioDefault">
+					<label class="form-check-label" for="minimaltheme">Minimal Theme</label>
+				</div>
+				<hr>
+				<h6 class="mb-0">Header Colors</h6>
+				<hr>
+				<div class="header-colors-indigators">
+					<div class="row row-cols-auto g-3">
+						<div class="col">
+							<div class="indigator headercolor1" id="headercolor1"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor2" id="headercolor2"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor3" id="headercolor3"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor4" id="headercolor4"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor5" id="headercolor5"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor6" id="headercolor6"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor7" id="headercolor7"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor8" id="headercolor8"></div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<h6 class="mb-0">Sidebar Backgrounds</h6>
+				<hr>
+				<div class="header-colors-indigators">
+					<div class="row row-cols-auto g-3">
+						<div class="col">
+							<div class="indigator sidebarcolor1" id="sidebarcolor1"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor2" id="sidebarcolor2"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor3" id="sidebarcolor3"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor4" id="sidebarcolor4"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor5" id="sidebarcolor5"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor6" id="sidebarcolor6"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor7" id="sidebarcolor7"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor8" id="sidebarcolor8"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end switcher -->
+		<!-- Bootstrap JS -->
+		<script src="static/js/bootstrap.bundle.min.js"></script>
+		<!--plugins-->
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/simplebar.min.js"></script>
+		<script src="static/js/metisMenu.min.js"></script>
+		<script src="static/js/perfect-scrollbar.js"></script>
+		<!--app JS-->
+		<script src="static/js/app.js"></script>
+	</body>
+</html>

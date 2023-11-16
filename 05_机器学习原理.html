@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--favicon-->
+		<link rel="icon" href="AAA_image\logo1.png" type="image/png">
+		<!--plugins-->
+		<link href="static/css/simplebar.css" rel="stylesheet">
+		<link href="static/css/perfect-scrollbar.css" rel="stylesheet">
+		<link href="static/css/metisMenu.min.css" rel="stylesheet">
+		<link href="static/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+		<!-- loader-->
+		<link href="static/css/pace.min.css" rel="stylesheet">
+		<script src="static/js/pace.min.js"></script>
+		<!-- Bootstrap CSS -->
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="static/css/app.css" rel="stylesheet">
+		<link href="static/css/icons.css" rel="stylesheet">
+		<!-- Theme Style CSS -->
+		<link rel="stylesheet" href="static/css/dark-theme.css">
+		<link rel="stylesheet" href="static/css/semi-dark.css">
+		<link rel="stylesheet" href="static/css/header-colors.css">
+		<title>DDGS-首页</title>
+	</head>
+	<body>
+    <!-- 左侧边栏 -->
+		<!--wrapper-->
+		<div class="wrapper">
+			<!-- sidebar wrapper -->
+			<div class="sidebar-wrapper" data-simplebar="true">
+				<div class="sidebar-header">
+					<div>
+						<a href="0_MainPage.html">
+							<img src="AAA_image\logo1.png" class="logo-icon" alt="logo icon">
+						</a>
+					</div>
+					<div>
+						<a href="0_MainPage.html">
+							<h4 class="logo-text">DDGS</h4>
+						</a>
+					</div>
+					<div class="toggle-icon ms-auto">
+                        <i class='bx bx-arrow-to-left'></i>
+					</div>
+				</div>
+				<!-- 左侧导航栏 -->
+				<!-- navigation-->
+				<ul class="metismenu" id="menu">
+					<li>
+						<a href="0_MainPage.html" target="_blank">
+							<div class="parent-icon">
+                                <i class='bx bx-home-circle'></i>
+							</div>
+							<div class="menu-title">首页</div>
+						</a>
+					</li>
+					<li>
+						<a href="01_认识Ⅱ型糖尿病.html" target="_blank">
+							<div class="parent-icon">
+                                <i class='bx bx-bookmark-heart'></i>
+							</div>
+							<div class="menu-title">认识Ⅱ型糖尿病</div>
+						</a>
+					</li>
+					<li>
+						<a class="has-arrow" href="javascript:;">
+							<div class="parent-icon">
+                                <i class="bx bx-repeat"></i>
+							</div>
+							<div class="menu-title">膳食指导平台</div>
+						</a>
+						<ul>
+							<li> 
+                                <a href="02-1_膳食指导平台_身体指标录入.html">
+                                    <i class="bx bx-message-square-edit"></i>身体指标录入
+                                </a>
+							</li>
+							<li>
+								<a class="has-arrow" href="javascript:;">
+									<div>
+                                        <i class="bx bx-category"></i>
+									</div>
+									<div class="menu-title">膳食指导结果查询</div>
+								</a>
+								<!-- <ul>
+									<li> 
+                                        <a href="02-2_膳食指导平台-专属膳食指导.html">
+                                            <i class="bx bx-right-arrow-alt"></i>专属膳食指导
+                                        </a>
+									</li>
+									<li> 
+                                        <a href="02-3_膳食指导系统-每日食谱指导.html">
+                                            <i class="bx bx-right-arrow-alt"></i>每日食谱指导
+                                        </a>
+									</li>
+								</ul> -->
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="javascript:;">
+							<div class="parent-icon">
+								<i class="bx bx-folder"></i>
+							</div>
+							<div class="menu-title">特医配方平台</div>
+						</a>
+						<ul>
+							<li>
+                                <a href="03-1_特医配方平台_特医配方验证.html">
+                                    <i class="bx bx-right-arrow-alt"></i>特医配方验证
+                                </a>
+							</li>
+							<li>
+                                <a href="03-2_特医配方平台_生成配方分析.html">
+                                    <i class="bx bx-right-arrow-alt"></i>生成配方分析
+                                </a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="04_糖云社区.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-message-square-edit"></i>
+							</div>
+							<div class="menu-title">糖云社区</div>
+						</a>
+					</li>
+					<li>
+						<a href="05_机器学习原理.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-support"></i>
+							</div>
+							<div class="menu-title">机器学习原理</div>
+						</a>
+					</li>
+					<li>
+						<a href="06_关于我们.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-user-circle"></i>
+							</div>
+							<div class="menu-title">关于我们</div>
+						</a>
+					</li>
+				</ul>
+				<!--end navigation-->
+			</div>
+			<!--end sidebar wrapper -->
+
+			<!--start header -->
+			<header>
+				<div class="topbar d-flex align-items-center">
+					<nav class="navbar navbar-expand">
+						<div class="mobile-toggle-menu">
+                            <i class='bx bx-menu'></i>
+						</div>
+						<!-- 搜索键入框 -->
+						<div class="search-bar flex-grow-1">
+							<div class="position-relative search-bar-box">
+								<input type="text" class="form-control search-control" 
+                                    placeholder="Chat with AI……(Coming Soon)"> 
+								<span class="position-absolute top-50 search-show  translate-middle-y">
+                                    <i class='bx bx-search'></i>
+                                </span>
+								<span class="position-absolute top-50 search-close translate-middle-y">
+                                    <i class='bx bx-x'></i>
+                                </span>
+							</div>
+						</div>
+
+						<!-- 中上部菜单栏 -->
+						<div class="top-menu ms-auto">
+							<ul class="navbar-nav align-items-center">
+								<li class="nav-item dropdown dropdown-large">
+									<div class="dropdown-menu dropdown-menu-end">
+										<div class="header-notifications-list">
+										</div>
+									</div>
+								</li>
+								<li class="nav-item dropdown dropdown-large">
+									<div class="dropdown-menu dropdown-menu-end">
+										<div class="header-message-list">
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="user-box dropdown">
+							<a class="d-flex align-items-center nav-link dropdown-toggle
+								dropdown-toggle-nocaret" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="AAA_image\logo1.png" class="user-img" alt="user avatar">
+								<div class="user-info ps-3">
+									<p class="user-name mb-0">User小D</p>
+									<p class="designattion mb-0">患者</p>
+								</div>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end">
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class="bx bx-user"></i>
+                                        <span>个人信息维护</span>
+                                    </a>
+								</li>
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class="bx bx-cog"></i>
+                                        <span>设置</span>
+                                    </a>
+								</li>
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class='bx bx-download'></i>
+                                        <span>治疗档案</span>
+                                    </a>
+								</li>
+								<li>
+									<div class="dropdown-divider mb-0"></div>
+								</li>
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class='bx bx-log-out-circle'></i>
+                                        <span>登出/注销</span>
+                                    </a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!--end header -->
+
+			<!--start page wrapper -->
+			<div class="page-wrapper">
+				<div class="page-content">
+					<!--breadcrumb-->
+					<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+						<div class="breadcrumb-title pe-3">科普园地</div>
+						<div class="ps-3">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb mb-0 p-0">
+									<li class="breadcrumb-item"><a href="0_MainPage.html"><i class="bx
+												bx-home-alt"></i></a>
+									</li>
+									<li class="breadcrumb-item active" aria-current="page">机器学习原理</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+					<!--end breadcrumb-->
+
+					<!-- 更改的选择器：
+						card-body -> card-body2
+						table 新增一种样式为table-style
+					-->
+					<div class="card">
+						<div class="card-body2">
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/05/hFaJ84RNZz3i1Wq.png" class="marg">
+									<p class="card-text" align="center">
+										MLP机器学习原理示意图
+									</p>
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											原理介绍
+										</h1>
+										<p class="card-text">
+											基于Python等编程语言，利用现有的机器学习库（如Scikit-learn）和数据分析库（如Pandas、numpy）以及深度学习框架Pytorch，本项目实现了多种算法，包括回归分析、决策树、 K近邻(KNN)、主成分分析（PCA）、支持向量机（SVM）、聚类算法（K-means）、LSTM、RNN、MLP、Logistic回归、朴素贝叶斯、GRU等。我们的算法将基于九家医院提供的四个数据库中权威可信的足量数据进行训练。这些数据库收录了病人相关的理化指标，例如血糖数值（包括空腹血糖、餐后血糖和HbA1c指标）、胰岛素使用情况、患者运动量、年龄、性别、病史、血脂水平、胰岛素水平、心率和血压等数据，以及对应的饮食习惯。这些饮食习惯已由专家进行了优化，具有相当的合理性，可以作为机器学习中的标签，进行有监督的学习。
+本项目将运用多种机器学习模型进行横向比较，并根据不同数据规模选择合适的模型进行回归预测，从而提供高度个性化的定制饮食建议。<br>
+在目前的数据规模下，进行了权值调整的MLP模型表现最好，在准确性、召回率、精确率和F1-measure等方面都优于其他算法。随着数据规模的不断扩大，本项目计划引入带有注意力机制的LSTM等其他模型，进一步提升建议的准确性和可靠性。
+通过训练得出的模型，病人只需输入自己的相关理化指标，就能获得专家水平的饮食建议。本项目将在前端界面上使用相关库（如Matplotlib）展示可视化结果，将其传给前端界面，，使病人能够更直观地理解他们的饮食建议。
+										</p>
+										
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/05/L2o39h8RZtUpakO.png" class="marg">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											未来计划
+										</h1>
+										<p class="card-text">
+											本项目还尝试联合基于图像的食物识别系统，提出“血糖膳食模型”，以实现自动识别图像，应用语义分割算法提取食品的种类、质量，对应到各营养素含量，更好地分析摄入的食物并进行数据库扩充，同时研究人员也可通过平台逆用来进行特医食品配方的营养验证参考。	
+										</p>
+										
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!--start overlay-->
+			<div class="overlay toggle-icon">
+            </div>
+            <a href="javaScript:;" class="back-to-top">
+                <i class='bx bxs-up-arrow-alt'></i>
+            </a>
+			<!--End Back To Top Button-->
+			<footer class="page-footer">
+				<p class="mb-0">Copyright © 2023 All right reserved.</p>
+			</footer>
+		</div>
+		<!--end wrapper-->
+
+
+
+		
+		<!-- start switcher-->
+		<div class="switcher-wrapper">
+			<div class="switcher-btn">
+                <i class='bx bx-cog bx-spin'></i>
+			</div>
+			<div class="switcher-body">
+				<div class="d-flex align-items-center">
+					<h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+					<button type="button" class="btn-close ms-auto close-switcher"
+						aria-label="Close">
+                    </button>
+				</div>
+				<hr>
+				<h6 class="mb-0">Theme Styles</h6>
+				<hr>
+				<div class="d-flex align-items-center justify-content-between">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="lightmode" checked="">
+						<label class="form-check-label" for="lightmode">Light</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="darkmode">
+						<label class="form-check-label" for="darkmode">Dark</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="semidark">
+						<label class="form-check-label" for="semidark">Semi Dark</label>
+					</div>
+				</div>
+				<hr>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" id="minimaltheme"
+						name="flexRadioDefault">
+					<label class="form-check-label" for="minimaltheme">Minimal Theme</label>
+				</div>
+				<hr>
+				<h6 class="mb-0">Header Colors</h6>
+				<hr>
+				<div class="header-colors-indigators">
+					<div class="row row-cols-auto g-3">
+						<div class="col">
+							<div class="indigator headercolor1" id="headercolor1"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor2" id="headercolor2"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor3" id="headercolor3"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor4" id="headercolor4"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor5" id="headercolor5"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor6" id="headercolor6"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor7" id="headercolor7"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor8" id="headercolor8"></div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<h6 class="mb-0">Sidebar Backgrounds</h6>
+				<hr>
+				<div class="header-colors-indigators">
+					<div class="row row-cols-auto g-3">
+						<div class="col">
+							<div class="indigator sidebarcolor1" id="sidebarcolor1"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor2" id="sidebarcolor2"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor3" id="sidebarcolor3"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor4" id="sidebarcolor4"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor5" id="sidebarcolor5"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor6" id="sidebarcolor6"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor7" id="sidebarcolor7"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor8" id="sidebarcolor8"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end switcher -->
+		<!-- Bootstrap JS -->
+		<script src="static/js/bootstrap.bundle.min.js"></script>
+		<!--plugins-->
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/simplebar.min.js"></script>
+		<script src="static/js/metisMenu.min.js"></script>
+		<script src="static/js/perfect-scrollbar.js"></script>
+		<!--app JS-->
+		<script src="static/js/app.js"></script>
+	</body>
+</html>

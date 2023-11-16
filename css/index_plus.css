@@ -1,0 +1,66 @@
+.card-central-title {
+    margin-bottom: .5rem;
+    text-align:  center;
+}
+.move-to-center{
+    text-align: center;
+}
+
+.card-b1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(166, 234, 161);
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 .5rem 1.2rem rgba(0, 0, 0, .12)
+}
+.card-b2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(117, 214, 110);
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 .5rem 1.2rem rgba(0, 0, 0, .12)
+}
+.card-b3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(74, 208, 64);
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 .5rem 1.2rem rgba(0, 0, 0, .12)
+}
+.badge-stick-width {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+
+    width: 3.5rem
+}
+
+.turngreenbold{
+    color: green;
+    font-weight: bold;
+}

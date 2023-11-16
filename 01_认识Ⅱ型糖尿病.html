@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--favicon-->
+		<link rel="icon" href="AAA_image\logo1.png" type="image/png">
+		<!--plugins-->
+		<link href="static/css/simplebar.css" rel="stylesheet">
+		<link href="static/css/perfect-scrollbar.css" rel="stylesheet">
+		<link href="static/css/metisMenu.min.css" rel="stylesheet">
+		<link href="static/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+		<!-- loader-->
+		<link href="static/css/pace.min.css" rel="stylesheet">
+		<script src="static/js/pace.min.js"></script>
+		<!-- Bootstrap CSS -->
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="static/css/app.css" rel="stylesheet">
+		<link href="static/css/icons.css" rel="stylesheet">
+		<!-- Theme Style CSS -->
+		<link rel="stylesheet" href="static/css/dark-theme.css">
+		<link rel="stylesheet" href="static/css/semi-dark.css">
+		<link rel="stylesheet" href="static/css/header-colors.css">
+		<title>DDGS-认识Ⅱ型糖尿病</title>
+	</head>
+	<body>
+    <!-- 左侧边栏 -->
+		<!--wrapper-->
+		<div class="wrapper">
+			<!-- sidebar wrapper -->
+			<div class="sidebar-wrapper" data-simplebar="true">
+				<div class="sidebar-header">
+					<div>
+						<a href="0_MainPage.html">
+							<img src="AAA_image\logo1.png" class="logo-icon" alt="logo icon">
+						</a>
+					</div>
+					<div>
+						<a href="0_MainPage.html">
+							<h4 class="logo-text">DDGS</h4>
+						</a>
+					</div>
+					<div class="toggle-icon ms-auto">
+                        <i class='bx bx-arrow-to-left'></i>
+					</div>
+				</div>
+				<!-- 左侧导航栏 -->
+				<!-- navigation-->
+				<ul class="metismenu" id="menu">
+					<li>
+						<a href="0_MainPage.html" target="_blank">
+							<div class="parent-icon">
+                                <i class='bx bx-home-circle'></i>
+							</div>
+							<div class="menu-title">首页</div>
+						</a>
+					</li>
+					<li>
+						<a href="01_认识Ⅱ型糖尿病.html" target="_blank">
+							<div class="parent-icon">
+                                <i class='bx bx-bookmark-heart'></i>
+							</div>
+							<div class="menu-title">认识Ⅱ型糖尿病</div>
+						</a>
+					</li>
+					<li>
+						<a class="has-arrow" href="javascript:;">
+							<div class="parent-icon">
+                                <i class="bx bx-repeat"></i>
+							</div>
+							<div class="menu-title">膳食指导平台</div>
+						</a>
+						<ul>
+							<li> 
+                                <a href="02-1_膳食指导平台_身体指标录入.html">
+                                    <i class="bx bx-message-square-edit"></i>身体指标录入
+                                </a>
+							</li>
+							<li>
+								<a class="has-arrow" href="javascript:;">
+									<div>
+                                        <i class="bx bx-category"></i>
+									</div>
+									<div class="menu-title">膳食指导结果查询</div>
+								</a>
+								<!-- <ul>
+									<li> 
+                                        <a href="02-2_膳食指导平台-专属膳食指导.html">
+                                            <i class="bx bx-right-arrow-alt"></i>专属膳食指导
+                                        </a>
+									</li>
+									<li> 
+                                        <a href="02-3_膳食指导系统-每日食谱指导.html">
+                                            <i class="bx bx-right-arrow-alt"></i>每日食谱指导
+                                        </a>
+									</li>
+								</ul> -->
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="javascript:;">
+							<div class="parent-icon">
+								<i class="bx bx-folder"></i>
+							</div>
+							<div class="menu-title">特医配方平台</div>
+						</a>
+						<ul>
+							<li>
+                                <a href="03-1_特医配方平台_特医配方验证.html">
+                                    <i class="bx bx-right-arrow-alt"></i>特医配方验证
+                                </a>
+							</li>
+							<li>
+                                <a href="03-2_特医配方平台_生成配方分析.html">
+                                    <i class="bx bx-right-arrow-alt"></i>生成配方分析
+                                </a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="04_糖云社区.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-message-square-edit"></i>
+							</div>
+							<div class="menu-title">糖云社区</div>
+						</a>
+					</li>
+					<li>
+						<a href="05_机器学习原理.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-support"></i>
+							</div>
+							<div class="menu-title">机器学习原理</div>
+						</a>
+					</li>
+					<li>
+						<a href="06_关于我们.html" target="_blank">
+							<div class="parent-icon">
+                                <i class="bx bx-user-circle"></i>
+							</div>
+							<div class="menu-title">关于我们</div>
+						</a>
+					</li>
+				</ul>
+				<!--end navigation-->
+			</div>
+			<!--end sidebar wrapper -->
+
+			<!--start header -->
+			<header>
+				<div class="topbar d-flex align-items-center">
+					<nav class="navbar navbar-expand">
+						<div class="mobile-toggle-menu">
+                            <i class='bx bx-menu'></i>
+						</div>
+						<!-- 搜索键入框 -->
+						<div class="search-bar flex-grow-1">
+							<div class="position-relative search-bar-box">
+								<input type="text" class="form-control search-control" 
+                                    placeholder="Chat with AI……(Coming Soon)"> 
+								<span class="position-absolute top-50 search-show  translate-middle-y">
+                                    <i class='bx bx-search'></i>
+                                </span>
+								<span class="position-absolute top-50 search-close translate-middle-y">
+                                    <i class='bx bx-x'></i>
+                                </span>
+							</div>
+						</div>
+
+						<!-- 中上部菜单栏 -->
+						<div class="top-menu ms-auto">
+							<ul class="navbar-nav align-items-center">
+								<li class="nav-item dropdown dropdown-large">
+									<div class="dropdown-menu dropdown-menu-end">
+										<div class="header-notifications-list">
+										</div>
+									</div>
+								</li>
+								<li class="nav-item dropdown dropdown-large">
+									<div class="dropdown-menu dropdown-menu-end">
+										<div class="header-message-list">
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="user-box dropdown">
+							<a class="d-flex align-items-center nav-link dropdown-toggle
+								dropdown-toggle-nocaret" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="AAA_image\logo1.png" class="user-img" alt="user avatar">
+								<div class="user-info ps-3">
+									<p class="user-name mb-0">User小D</p>
+									<p class="designattion mb-0">患者</p>
+								</div>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end">
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class="bx bx-user"></i>
+                                        <span>个人信息维护</span>
+                                    </a>
+								</li>
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class="bx bx-cog"></i>
+                                        <span>设置</span>
+                                    </a>
+								</li>
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class='bx bx-download'></i>
+                                        <span>治疗档案</span>
+                                    </a>
+								</li>
+								<li>
+									<div class="dropdown-divider mb-0"></div>
+								</li>
+								<li>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <i class='bx bx-log-out-circle'></i>
+                                        <span>登出/注销</span>
+                                    </a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!--end header -->
+
+
+
+			<!--start page wrapper -->
+			<!--start page wrapper -->
+			<div class="page-wrapper">
+				<div class="page-content">
+					<!--breadcrumb-->
+
+					<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+						<div class="breadcrumb-title pe-3">科普园地</div>
+						<div class="ps-3">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb mb-0 p-0">
+									<li class="breadcrumb-item">
+										<a href="0_MainPage.html">
+											<i class="bx
+												bx-home-alt"></i>
+										</a>
+									</li>
+									<li class="breadcrumb-item active" aria-current="page">认识Ⅱ型糖尿病</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+					<!--end breadcrumb-->
+
+					<!-- 更改的选择器：
+						card-body -> card-body2
+						table 新增一种样式为table-style
+					-->
+					<div class="card">
+						<div class="card-body2">
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/DVo35BgpQvWRsKT.png"
+										alt="糖尿病">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											Ⅱ型糖尿病介绍
+										</h1>
+										<p class="card-text">
+											Ⅱ型糖尿病（diabetes mellitus type
+											2，T2DM），旧称非胰岛素依赖型糖尿病（noninsulin-dependent diabetes
+											mellitus，NIDDM）或成人发病型糖尿病（adult-onset
+											diabetes），是一种慢性代谢疾病，多在35～40岁之后发病，占糖尿病患者90%以上。患者特征为高血糖、相对缺乏胰岛素、胰岛素抵抗等。常见症状有烦渴（Polydipsia）、频尿、不明原因的体重减轻，可能还包括多食、疲倦、或酸痛。不健康的生活方式、饮食习惯是诱发糖尿病的风险因素，其中饮食摄入引起的血糖急剧升高是导致血糖波动的主要原因
+										</p>
+										<table align="center" class="table-style">
+											<caption>Ⅱ型糖尿病基本信息</caption>
+											<tr>
+												<th>外文名</th>
+												<td>diabetes mellitus type 2</td>
+											</tr>
+											<tr>
+												<th>别名</th>
+												<td>非胰岛素依赖型糖尿病、成人发病型糖尿病</td>
+											</tr>
+											<tr>
+												<th>多发群体</th>
+												<td>中老年人、有家族史者、肥胖者</td>
+											</tr>
+											<tr>
+												<th>常见病因</th>
+												<td>遗传、环境、种族、年龄、生活方式等</td>
+											</tr>
+											<tr>
+												<th>就诊科室</th>
+												<td>内分泌科</td>
+											</tr>
+											<tr>
+												<th>常见症状</th>
+												<td>多饮、多尿、多食和消瘦，疲乏无力、肥胖</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/dfbNaz2owxXmC3D.jpg"
+										alt="糖尿病2">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											临床表现
+										</h1>
+										<p class="card-text">
+											糖尿病的典型症状为“三多一少”，即多尿症、烦渴（polydipsia）、多食症（Polyphagia）以及体重减轻。其他常见的症状包括视野模糊（blurred
+											vision）、皮肤瘙痒、周围神经病变、反复阴道炎、疲劳等病史。然而，很多人在最初数年间不会出现病征，一般在常规体检中才被诊断出来。在少部分的患者会出现高渗性高血糖状态（hyperosmolar
+											hyperglycemic state），此类患者会产生高血糖伴有意识水平下降（decreased level of
+											consciousness），以及低血压的症状。 </p>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/oQ6jblSFgJf5dKn.jpg"
+										alt="糖尿病3">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											预防措施
+										</h1>
+										<p class="card-text">
+											事实表明，调整生活方式能有效预防或延缓2型糖尿病发作。为帮助预防2型糖尿病及其并发症，人们应当：
+											<br>a)达到和保持健康的体重；
+											<br>b)坚持身体活动——经常定期进行至少30分钟强度适中的活动，需要增加活动来控制体重；
+											<br>c)保证健康饮食，减少糖和饱和脂肪的摄入量；
+											<br>以及避免使用烟草——吸烟会增加患糖尿病和心血管病的风险。
+										</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/Vlyc9q7EWCQBnt3.jpg"
+										alt="糖尿病4">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											药物治疗
+										</h1>
+										<p class="card-text">
+											Ⅱ型糖尿病的主要治疗方式为胰岛素及降糖药的使用，常见降糖药如双胍类、磺酰脲类（sulfonylureas）、噻唑烷二酮类（thiazolidinedione）、DPP-4受体抑制剂、SGLT-2受体抑制剂、GLP-1类似物等。
+										</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/Nq2jrIhQMYioyO3.png"
+										alt="糖尿病5">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											中国糖尿病现状
+										</h1>
+										<p class="card-text">
+											2021年全球糖尿病患者高达5.37亿人，中国为全球糖尿病患者最多的国家。 根据 IDF（国际糖尿病联盟，International
+											Diabetes Federation）2021年全球糖尿病报告（IDF Diabetes Atlas 10 th
+											Edition）统计，2021年全球成人（2079岁）糖尿病患者已达 5.37亿人，每 10 名成年人就有1名糖尿病患者，而其中约有
+											40%-60%从未获得诊断。据 IDF的预测，患者人数将持续增加，2045
+											年全球糖尿病患者将达7.83亿人。其主要原因为肥胖、饮食不健康、身体运动量不足、工作环境压力大等导致Ⅱ型糖尿病患者激增。我国目前为全球成人糖尿病患者人数最多的国家，印度/巴基斯坦/美国为第二至第四名。2021
+											年我国成人糖尿病患者人数达1.41亿人，占全球病患人数的26%，IDF预计2045年我国成人糖尿病患者将达到1.74亿人。
+										</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/4X2nhtQvAcyqGgo.jpg"
+										alt="糖尿病6">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											诊断标准
+										</h1>
+										<table class="table-style" align="center">
+											<thead>
+												<tr>
+													<th>餐后两小时血糖<br>mmol/(mg/dl)</th>
+													<th>空腹血糖<br>mmol/(mg/dl)</th>
+													<th>HbA1c<br>%</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>正常</td>
+													<td>&lt;7.8 (&lt;140)</td>
+													<td>&lt;6.1 (&lt;110)</td>
+												</tr>
+												<tr>
+													<td>空腹血糖障碍</td>
+													<td>&lt;7.8 (&lt;140)</td>
+													<td>&#8805;6.1 (&#8805;110) &amp;&amp; &lt;7.0 (&lt;126)</td>
+												</tr>
+												<tr>
+													<td>糖耐受量受损</td>
+													<td>&#8805;7.8 (&#8805;140)</td>
+													<td>&lt;7.0 (&lt;126) &amp;&amp; 6.0-6.4</td>
+												</tr>
+												<tr>
+													<td>糖尿病</td>
+													<td>&#8805;11.1 (&#8805;200)</td>
+													<td>&#8805;7.0 (&#8805;126) &amp;&amp; &#8805;6.5</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/juoPaGmkz972QAx.png"
+										alt="糖尿病7">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											病理机制
+										</h1>
+										<p class="card-text">
+											Ⅱ型糖尿病（T2DM）是多基因易感因素以及环境因素（包括肥胖，缺乏运动，饮食不当）等共同作用导致的代谢障碍，其病理机制复杂，主要发病基础表现为胰岛素抵抗与胰岛素分泌不足。Ⅱ型糖尿病患者在发病初期能够产生胰岛素，但由于长期胰岛素抵抗，胰岛素与靶细胞的胰岛素受体缺乏细胞应答，胰岛素信号传导功能受到阻碍，靶细胞无法吸收利用葡萄糖，从而导致血糖升高。如果血糖增长不加以控制，胰岛素分泌负担加重，胰岛β细胞进一步恶化，造成胰岛素绝对缺乏且胰岛细胞数目缩减，从而加重T2DM。
+											<br>
+											尽管目前尚不清楚胰岛素抵抗的确切机制，但胰岛素信号转导的障碍是发生胰岛素抵抗的重要原因。根据相关文献，内质网应激、氧化应激、线粒体功能障碍、脂代谢异常和炎症等均与胰岛素抵抗相关信号通路有关，可调节胰岛素敏感性并诱导胰岛素抵抗。
+										</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div class="col">
+								<div class="card mb-3">
+									<img src="https://s2.loli.net/2023/04/03/HZ5zvNM8InlkJ9C.jpg"
+										alt="糖尿病8">
+									<div class="card-body2">
+										<h1>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none" stroke="currentColor"
+												stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+												class="feather feather-codesandbox text-primary"><path d="M21 16V8a2
+													2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1
+													1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline
+													points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline
+													points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12
+													16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12
+													12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12"
+													y2="12"></line></svg>
+											常见病因
+										</h1>
+										<p class="card-text">
+											<h5>a)遗传因素</h5>
+											大多数糖尿病个案涉及多种基因，而这些不同的基因都可能会使患上Ⅱ型糖尿病的几率上升。如果同卵双胞胎的其中一人有糖尿病，另一人患上糖尿病的机会高于90%，然而非同卵的兄弟姐妹的几率只有25%至50%。到2011年为止，共发现了超过36个基因都可能增加罹患2型糖尿病的风险。然而，即使全部这些基因加在一起，亦只占诱发糖尿病的整体遗传因素中的10%。举例来说，可使发病风险增加1.5倍的等位基因TCF7L2为常见基因变异中拥有最高风险的基因。多数与糖尿病有关的基因都与β细胞功能有关。
+											<br><br><h5>b)生活方式</h5>
+											目前认为有不少生活方式都是引致2型糖尿病的重要因素，其中包括肥胖症和超重（BMI高于25）、身体活动量不足、不健康的饮食、压力过大以及城市化的生活等。30%的华裔与日裔患者体脂过高，欧裔和非裔患者则有60%至80%，印第安人和太平洋岛民患者则100%都体脂过高。至于非肥胖症的2型糖尿病患则常有过高的腰臀比。吸烟可能也会增加罹患2型糖尿病的机会。
+											饮食也是影响2型糖尿病发病风险的重要因素。饮用过量的含糖饮料可增加患病风险。饮食里摄取的脂肪也是很重要的因素，饱和脂肪与反式脂肪均会增加患病风险，而多元不饱和脂肪与单元不饱和脂肪则有助于降低风险。摄取大量白米似乎也会使致病风险增加。也有学者认为，7%的病例可能是缺乏运动所致。持久性有机污染物可能也和糖尿病相关。
+											<br><br><h5>c)健康状况</h5>
+											许多健康问题及药物都可能使人患糖尿病的风险增加。相关药物包括：糖皮质激素、噻嗪类利尿剂、β受体阻滞剂、非典型抗精神病药物（atypical
+											antipsychotic）及他汀类药物。曾患妊娠期糖尿病的女性患上2型糖尿病的风险较高，而其他和2型糖尿病相关的健康问题还包括肢端肥大症、皮质醇增多症、甲状腺功能亢进症、嗜铬细胞瘤（pheochromocytoma）及某些癌症如胰高血糖素瘤（glucagonoma）。另外，睾酮缺乏与2型糖尿病也有很密切的关联。可能诱发糖尿病的药物包括：糖皮质激素、噻嗪类利尿剂、β受体阻滞剂、非典型抗精神病药物（atypical
+											antipsychotic）及他汀类药物。
+										</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+						</div>
+					</div>
+					<!--start overlay-->
+			<div class="overlay toggle-icon">
+            </div>
+            <a href="javaScript:;" class="back-to-top">
+                <i class='bx bxs-up-arrow-alt'></i>
+            </a>
+			<!--End Back To Top Button-->
+			<footer class="page-footer">
+				<p class="mb-0">Copyright © 2023 All right reserved.</p>
+			</footer>
+		</div>
+		<!--end wrapper-->
+		
+		<!-- start switcher-->
+		<div class="switcher-wrapper">
+			<div class="switcher-btn">
+                <i class='bx bx-cog bx-spin'></i>
+			</div>
+			<div class="switcher-body">
+				<div class="d-flex align-items-center">
+					<h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+					<button type="button" class="btn-close ms-auto close-switcher"
+						aria-label="Close">
+                    </button>
+				</div>
+				<hr>
+				<h6 class="mb-0">Theme Styles</h6>
+				<hr>
+				<div class="d-flex align-items-center justify-content-between">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="lightmode" checked="">
+						<label class="form-check-label" for="lightmode">Light</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="darkmode">
+						<label class="form-check-label" for="darkmode">Dark</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault"
+							id="semidark">
+						<label class="form-check-label" for="semidark">Semi Dark</label>
+					</div>
+				</div>
+				<hr>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" id="minimaltheme"
+						name="flexRadioDefault">
+					<label class="form-check-label" for="minimaltheme">Minimal Theme</label>
+				</div>
+				<hr>
+				<h6 class="mb-0">Header Colors</h6>
+				<hr>
+				<div class="header-colors-indigators">
+					<div class="row row-cols-auto g-3">
+						<div class="col">
+							<div class="indigator headercolor1" id="headercolor1"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor2" id="headercolor2"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor3" id="headercolor3"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor4" id="headercolor4"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor5" id="headercolor5"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor6" id="headercolor6"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor7" id="headercolor7"></div>
+						</div>
+						<div class="col">
+							<div class="indigator headercolor8" id="headercolor8"></div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<h6 class="mb-0">Sidebar Backgrounds</h6>
+				<hr>
+				<div class="header-colors-indigators">
+					<div class="row row-cols-auto g-3">
+						<div class="col">
+							<div class="indigator sidebarcolor1" id="sidebarcolor1"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor2" id="sidebarcolor2"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor3" id="sidebarcolor3"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor4" id="sidebarcolor4"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor5" id="sidebarcolor5"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor6" id="sidebarcolor6"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor7" id="sidebarcolor7"></div>
+						</div>
+						<div class="col">
+							<div class="indigator sidebarcolor8" id="sidebarcolor8"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end switcher -->
+		<!-- Bootstrap JS -->
+		<script src="static/js/bootstrap.bundle.min.js"></script>
+		<!--plugins-->
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/simplebar.min.js"></script>
+		<script src="static/js/metisMenu.min.js"></script>
+		<script src="static/js/perfect-scrollbar.js"></script>
+		<!--app JS-->
+		<script src="static/js/app.js"></script>
+	</body>
+</html>

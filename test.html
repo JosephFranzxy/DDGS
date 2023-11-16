@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Data</title>
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: "data.php", // PHP文件的路径
+                type: "GET",
+                dataType: "html",
+                success: function(response) {
+                    $("#data-container").html(response); // 将返回的数据显示在指定的容器中
+                },
+                error: function(xhr, status, error) {
+                    console.log("An error occurred: " + error); // 处理错误
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="data-container"></div> <!-- 用于显示数据的容器 -->
+</body>
+</html>
